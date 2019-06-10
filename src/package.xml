@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>InsuranceLayout</fullName>
     <types>
+        <members>CustomerProperty.Property_Type__c</members>
         <members>InsurancePolicyAsset.Description__c</members>
         <name>CustomField</name>
     </types>
@@ -12,8 +12,8 @@
         <members>CustomerProperty-Personal Item</members>
         <members>CustomerProperty-Property</members>
         <members>CustomerProperty-Vehicle</members>
-        <members>InsurancePolicyAsset-Insurance Policy Asset Layout</members>
         <members>InsurancePolicy-Insurance Policy Layout</members>
+        <members>InsurancePolicyAsset-Insurance Policy Asset Layout</members>
         <members>InsurancePolicyCoverage-Insurance Policy Coverage Layout</members>
         <members>InsurancePolicyParticipant-Insurance Policy Participant Layout</members>
         <name>Layout</name>
