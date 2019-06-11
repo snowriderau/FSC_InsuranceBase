@@ -7,7 +7,6 @@
         <members>InsurancePolicy.External_ID__c</members>
         <members>InsurancePolicyAsset.Description__c</members>
         <members>InsurancePolicyCoverage.External_ID__c</members>
-        <members>Person.Description__c</members>
         <members>PersonLifeEvent.External_ID__c</members>
         <name>CustomField</name>
     </types>
