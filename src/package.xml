@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CustomerProperty.Property_Type__c</members>
-        <members>CustomerProperty.External_ID__c</members>    
-        <members>Person.Description__c</members>
-        <members>InsurancePolicyAsset.Description__c</members>
-        <members>PersonLifeEvent.External_ID__c</members>
-        <members>InsurancePolicy.External_ID__c</members>
-        <members>InsurancePolicyCoverage.External_ID__c</members>
         <members>Claim.External_ID__c</members>
+        <members>CustomerProperty.External_ID__c</members>
+        <members>CustomerProperty.Property_Type__c</members>
+        <members>InsurancePolicy.External_ID__c</members>
+        <members>InsurancePolicyAsset.Description__c</members>
+        <members>InsurancePolicyCoverage.External_ID__c</members>
+        <members>Person.Description__c</members>
+        <members>PersonLifeEvent.External_ID__c</members>
         <name>CustomField</name>
+    </types>
     <types>
         <members>CustomerProperty-Customer Property Layout</members>
         <members>CustomerProperty-Mobile Phone</members>
