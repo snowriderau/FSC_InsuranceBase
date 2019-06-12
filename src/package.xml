@@ -8,6 +8,7 @@
         <members>InsurancePolicyAsset.Description__c</members>
         <members>InsurancePolicyCoverage.External_ID__c</members>
         <members>PersonLifeEvent.External_ID__c</members>
+        <members>Producer.External_ID__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -25,9 +26,10 @@
     </types>
     <types>
         <members>CustomerProperty.Bicycle</members>
+        <members>CustomerProperty.Commercial_Property</members>
         <members>CustomerProperty.Mobile_Phone</members>
         <members>CustomerProperty.Personal_Computer</members>
-        <members>CustomerProperty.Property</members>
+        <members>CustomerProperty.Residential_Property</members>
         <members>CustomerProperty.Vehicle</members>
         <name>RecordType</name>
     </types>
