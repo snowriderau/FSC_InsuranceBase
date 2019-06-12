@@ -29,6 +29,10 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Custom%3A Insurance Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>CustomerProperty.Bicycle</members>
         <members>CustomerProperty.Commercial_Property</members>
         <members>CustomerProperty.Mobile_Phone</members>
