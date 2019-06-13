@@ -7,14 +7,14 @@
 
 This instructs you on how to deploy the latest base FSC Insurance build into your org with a few steps. Will install into any FSC Org (in theory, best if it io seitehr a Insurance or Banking IDO.)
 
-Pre Install Requirments.
+<H3>Pre Install Requirments.</H3>
 
 1. FSC PSL License Added to your Org. 
 2. FSC Insurance Permset assigned to your user
 3. External ID set on a Person account with the value Insurance.001 this record will have the base data applied. (Eg Rachel Adams)
 4. External ID set on a User account with the value InsAgent.001, (Eg Craig Holman)
 
-Deploy the base package.
+<H3>Deploy the base package.</H3>
 
 Start with a fresh browser window
 Log into your org as the admin.
@@ -24,14 +24,14 @@ https://github.com/snowriderau/FSC_InsuranceBase
 
 On the read me page click deploy to salesforce. click login, then deploy 
 
-Assign perms to your admin/users. 
+<H3>Assign perms to your admin/users.</H3> 
 
 Package includes a permset called  FSC Insurance IDO Base to every user that needs it. 
 This will ensure you have access to all new fields and record types created. 
 Add related list to your main page layout for your person account, add insurance Policies, claims and Customer Property.
 Assign Customer Property Page to their Layouts
 
-Load Base Data into your org
+<H3>Load Base Data into your org</H3>
 
 Following object data needs to be loaded into your org in the following order, Make sure you are using api version 46 and Upsert.
 
@@ -44,7 +44,7 @@ Claim
 PersonLifeEvent* some issues loading this one.. 
 
 
-Setting up your Lightning Page
+<H3>Setting up your Lightning Page</H3>
 
 It's likely you will want to add these components to the page. 
 Set Up Basic Page Layout for your Insurance Console,* best down in console app in lightning.
@@ -54,7 +54,7 @@ Create a Policies Tab
 Add The Policy Component.
 Create a customer Property Tab and a single related list showing customer Property.
 
-TODO's
+<H3>TODO's</H3>
 
 Add Example Lightning Page Layout
 Package Record Type assignments for Page Layouts
