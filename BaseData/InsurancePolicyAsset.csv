@@ -1,0 +1,4 @@
+SourceSystemIdentifier,CustomerProperty.External_ID__c,InsurancePolicy.External_ID__c
+PolicyAsset.002,Ins.001.Property.003,Ins.001.Policy.001
+PolicyAsset.001,Ins.001.Property.001,Ins.001.Policy.002
+PolicyAsset.003,Ins.001.Property.004,Ins.001.Policy.002

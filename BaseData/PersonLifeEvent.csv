@@ -1,0 +1,6 @@
+External_ID__c,EventDate,EventDescription,EventLocationCity,EventLocationCountry,EventLocationPostalCode,EventLocationState,EventLocationStreet,EventType,IsTentative,Name,PrimaryPerson.External_ID__c,RelatedPerson.External_ID__c
+Life.Ins001.001,1992-03-07T20:00:00.000Z,Graduated Berkeley University,Berkeley,United States,94720,CA,100 Academic Hall,Graduation,FALSE,Environmental Science BSC hons,Insurance.001,
+Life.Ins001.002,1971-02-02T20:00:00.000Z,,,,,,,Birth,FALSE,Born,Insurance.001,
+Life.Ins001.003,2019-11-23T00:00:00.000Z,,,,,,,Baby,TRUE,Baby in 6 Months,Insurance.001,
+Life.Ins001.004,2017-01-07T20:00:00.000Z,New Purchase: Brand New Vehicle from Fletcher Jones Audi,Chicago,United States,60642,IL,1523 W North Ave,Car,FALSE,AUDI,Insurance.001,
+Life.Ins001.005,2005-08-30T19:00:00.000Z,,,,,,,Marriage,FALSE,Married to Mark Mason,Insurance.001,

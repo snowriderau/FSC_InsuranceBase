@@ -1,0 +1,5 @@
+External_ID__c,InsurancePolicy.External_ID__c,Category,CategoryGroup,CategoryGroupType,CoverageName,LimitAmount,PremiumAmount
+Coverage.001,Ins.001.Policy.002,Coverage,Additional Coverage,Comprehensive,Personal Possessions cover,2500,
+Coverage.002,Ins.001.Policy.001,Coverage,Additional Coverage,,Windscreen Cover,1500,15
+Coverage.003,Ins.001.Policy.002,Coverage,General,Comprehensive,Contents cover,50000,0
+Coverage.004,Ins.001.Policy.002,Coverage,Liability,,Occupiers and Personal liabilities,2000000,

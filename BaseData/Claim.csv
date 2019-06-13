@@ -1,0 +1,3 @@
+External_ID__c,Account.External_ID__pc,PolicyNumber.External_ID__c,Status,ActualAmount,ApprovedAmount,AssessmentDate,ClaimReason,ClaimType,EstimatedAmount,FinalizedDate,IncidentSiteCity,IncidentSiteCountry,IncidentSitePostalCode,IncidentSiteState,IncidentSiteStreet,InitiationDate,InsuredAsset.SourceSystemIdentifier,Name,Severity
+Claim.001,Insurance.001,Ins.001.Policy.002,Settled,1000,800,2018-05-07T19:00:00.000Z,Flood,Home,1300,2018-06-14T19:00:00.000Z,London,United Kingdom,EC2N 4AY,,Heron Tower110 Bishopsgate,2018-05-15T19:00:00.000Z,PolicyAsset.001,176353729,Medium
+Claim.002,Insurance.001,Ins.001.Policy.002,Initial,750,,,Damaged Phone,Home,750,,London,United Kingdom,EC2N 4AY,,Heron Tower110 Bishopsgate,2019-05-01T19:00:00.000Z,,2389730,Low
