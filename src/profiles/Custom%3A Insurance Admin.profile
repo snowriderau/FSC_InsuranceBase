@@ -4,6 +4,10 @@
         <dataCategoryGroup>Audience</dataCategoryGroup>
         <visibility>ALL</visibility>
     </categoryGroupVisibilities>
+    <classAccesses>
+        <apexClass>INS_PolicyListController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -23,6 +27,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>InsurancePolicy.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InsurancePolicy.INS_Policy_Term__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>InsurancePolicy.INS_Policy_Type_Icon__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
