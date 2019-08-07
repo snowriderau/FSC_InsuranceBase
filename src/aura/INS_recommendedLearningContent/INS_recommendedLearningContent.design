@@ -1,0 +1,35 @@
+<design:component>
+    
+    <design:attribute name="title" 
+                      label="Component Title"
+                      description=""/>
+    
+    <design:attribute name="trail1Title" 
+                      label="Title of the first trail" 
+                      description=""/>
+    
+    <design:attribute name="trail1URL" 
+                      label="Image URL for the first trail" 
+                      description=""/>
+    
+    <design:attribute name="trail2Title" 
+                      label="Title of the second trail" 
+                      description=""/>
+    
+    <design:attribute name="trail2URL" 
+                      label="Image URL for the second trail" 
+                      description=""/>
+    
+    <design:attribute name="trail3Title" 
+                      label="Title of the third trail" 
+                      description=""/>
+    
+    <design:attribute name="trail3URL" 
+                      label="Image URL for the third trail" 
+                      description=""/>
+    
+
+
+    
+	
+</design:component>

@@ -6,7 +6,7 @@
         <formula>CASE( CustomerProperty.RecordType.DeveloperName,
 
 &quot;Vehicle&quot;, CustomerProperty.Make  &amp;  &apos; - &apos; &amp; CustomerProperty.ModelName &amp; &apos; - &apos; &amp; TEXT(CustomerProperty.MakeYear), 
-&quot;Property&quot;, TEXT(CustomerProperty.BedroomCount) &amp; &apos; Bedrooms - &apos; &amp;   CustomerProperty.Street  &amp; &apos;, &apos; &amp;  CustomerProperty.City ,
+&quot;Residential_Property&quot;, TEXT(CustomerProperty.BedroomCount) &amp; &apos; Bedrooms - &apos; &amp;   CustomerProperty.Street  &amp; &apos;, &apos; &amp;  CustomerProperty.City ,
 &quot;Mobile_Phone&quot;, CustomerProperty.Make  &amp; &apos; - &apos; &amp; CustomerProperty.ModelName,
 
 CustomerProperty.Make  &amp;  &apos; - &apos; &amp; CustomerProperty.ModelName)</formula>

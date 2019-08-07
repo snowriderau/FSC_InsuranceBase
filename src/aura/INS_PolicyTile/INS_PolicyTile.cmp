@@ -1,5 +1,5 @@
 <aura:component controller="INS_PolicyListController" implements="lightning:availableForFlowScreens,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global">
-    <aura:attribute name="policy"   type="IDO_Policy__c" />
+    <aura:attribute name="policy"   type="InsurancePolicy" />
     <aura:attribute name="selected" type="Boolean" default="false" />
     
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />

@@ -16,7 +16,7 @@ public class INS_PolicyListController {
                             FORMAT(PremiumAmount), PremiumFrequency, INS_Policy_Term__c 
                     FROM InsurancePolicy
                     WHERE ( NameInsuredId = :accountId OR Producer.AccountId = :accountId ) AND
-                    Status  = 'In Force%'
+                    Status  Like 'In Force%'
                     ORDER BY Name ];
         }
         
