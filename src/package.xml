@@ -52,7 +52,7 @@
         <members>Account.Number_of_Life_Events__c</members>
         <members>Account.Recent_Life_Event__c</members>
         <members>Account.Trigger_Field__c</members>
-        <members>Acount.Account_Id_Formula__c</members>
+        <members>Claim.Customer_Property__c</members>
         <members>Claim.External_ID__c</members>
         <members>CustomerProperty.External_ID__c</members>
         <members>CustomerProperty.INS_Make_Logo__c</members>
@@ -64,6 +64,7 @@
         <members>InsurancePolicy.INS_Policy_Term__c</members>
         <members>InsurancePolicy.INS_Policy_Type_Icon__c</members>
         <members>InsurancePolicy.INS_Policy_Type_Icon__c</members>
+        <members>InsurancePolicy.PolicyType</members>
         <members>InsurancePolicyAsset.Description__c</members>
         <members>InsurancePolicyCoverage.External_ID__c</members>
         <members>PersonLifeEvent.External_ID__c</members>
@@ -84,6 +85,7 @@
         <members>Product_Insurance_Coverage__c.Product_Coverage__c</members>
         <members>Product_Insurance_Coverage__c.Product__c</members>
         <members>User.AccountID__c</members>
+        <members>User.Account_Id_Formula__c</members>
         <members>User.Account_Id_Formula__c</members>
         <name>CustomField</name>
     </types>
@@ -129,6 +131,7 @@
     </types>
     <types>
         <members>FSC_Insurance_IDO_Base</members>
+        <members>FSC_Policy360_IDO</members>
         <name>PermissionSet</name>
     </types>
     <types>

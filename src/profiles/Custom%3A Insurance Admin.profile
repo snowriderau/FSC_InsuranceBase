@@ -88,6 +88,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Claim.Customer_Property__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Claim.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -124,6 +129,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>InsurancePolicy.INS_Policy_Type_Icon__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>InsurancePolicy.PolicyType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

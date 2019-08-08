@@ -37,6 +37,12 @@ ROUND((NULLVALUE(ExpirationDate,NOW()) - NULLVALUE(EffectiveDate,NOW())),1)
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>PolicyType</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
     <recordTypes>
         <fullName>Commercial_Lines</fullName>
         <active>true</active>
